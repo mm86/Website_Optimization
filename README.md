@@ -2,7 +2,7 @@
 
 <h3>Part 1: Optimize PageSpeed Insights score for index.html</h3>
 
-For testing please use index.html.
+For testing please use dist/index.html.
 For a score above 90 in both mobile and desktop, I made the following changes:
 <ul>
 <li>Inlined style.css in index.html</li>
@@ -14,7 +14,7 @@ For a score above 90 in both mobile and desktop, I made the following changes:
 </ul>
 
 <h3>Part 2: Optimize Frames per Second in pizza.html</h3>
-<p>For testing please use src/views/pizza.html</p>
+<p>For testing please use src/views/pizza.html and src/views/js/main.js</p>
 A. To reach a frame rate of 60 fps when scrolling, I made the following changes:
 <ul>
 <li>Reduce the number of pizza sizes to 48 from 200.</li>
